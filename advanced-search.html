@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Material+Icons&display=swap" rel="stylesheet"> 
+        
+        <link href="./css/reset.css" rel="stylesheet">
+        <link href="./components/titles.css" rel="stylesheet">
+        <link href="./components/html.css" rel="stylesheet">
+        <link href="./components/header.css" rel="stylesheet">
+        <link href="./components/form.css" rel="stylesheet">
+        <link href="./components/input.css" rel="stylesheet">
+        <link href="./components/button.css" rel="stylesheet">
+        <link href="./components/search-bar.css" rel="stylesheet">
+        
+        <title>CS50</title>
+    </head>
+    <body>
+        <header>
+            <div class="header-advanced">
+                <a href="https://google.com/webhp?tab=ww">
+                    <img alt="Google" src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg">
+                </a>
+                <a class="header-links" onclick="history.back()">Google Search</a>
+            </div>
+            <h2 class="advanced-title-main">Advanced Search</h2>
+            <hr style="height:0px;border:1px solid #ebebeb;"/>
+        </header>
+    
+        <form class="advanced-search-form" action="https://www.google.com/search" method="get">
+            <nav class="container">
+                <div class="advanced-title-start"><a>Find pages with...</a></div>
+                <div class="advanced-title-end">To do this in the search box.</div>
+            </nav>
+
+            <div class="advanced-fields">
+                <div class="adv-lines">
+                    <div class="adv-line-text">all these words:
+                    </div>
+                    <div class="adv-line-text">this exact word or phrase:
+                    </div>
+                    <div class="adv-line-text">any of these words:
+                    </div>
+                    <div class="adv-line-text">none of these words:
+                    </div>
+                </div>
+                <div class="adv-lines">
+                    <div class="adv-line-input">
+                        <input type="text" name="as_q" size="80"> 
+                    </div>
+                    <div class="adv-line-input">
+                        <input type="text" name="as_epq" size="80"> 
+                    </div>
+                    <div class="adv-line-input">
+                        <input type="text" name="as_oq" size="80"> 
+                    </div>
+                    <div class="adv-line-input">
+                        <input type="text" name="as_eq" size="80"> 
+                    </div>
+                </div>
+                <div class="adv-lines">
+                    <div class="adv-line-text-end">Type the important words:<span class="example-text">tricolor rat terrier</span></div>
+                    <div class="adv-line-text-end">Put exact words in quotes:<span class="example-text">"rat terrier"</span></div>
+                    <div class="adv-line-text-end">Type OR between all the words you want:<span class="example-text">miniature OR standard</span></div>
+                    <div class="adv-line-text-end">Put a minus sign just before words you don't want:<span class="example-text">-rodent, -"Jack Russell"</span></div>
+                </div>
+            </div>
+
+            <div class="adv-submit">
+                <button class="button-adv button" type="submit">Advanced Search</button>
+            </div>
+        </form> 
+    </body>
+</html>
+

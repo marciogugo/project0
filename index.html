@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Material+Icons&display=swap" rel="stylesheet"> 
+        
+        <link href="./css/reset.css" rel="stylesheet">
+        <link href="./components/titles.css" rel="stylesheet">
+        <link href="./components/html.css" rel="stylesheet">
+        <link href="./components/header.css" rel="stylesheet">
+        <link href="./components/form.css" rel="stylesheet">
+        <link href="./components/input.css" rel="stylesheet">
+        <link href="./components/button.css" rel="stylesheet">
+        <link href="./components/search-bar.css" rel="stylesheet">
+        
+        <title>CS50</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a class="header-links" href="image-search.html">Image Search</a>
+                <a class="header-links" href="advanced-search.html" >Advanced Search</a>
+            </nav>
+        </header>
+
+        <div class="top">
+            <div class="logo">
+                <img alt="Google" height="92" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" width="272">
+            </div>
+        </div>
+
+        <form class="search-form" action="https://www.google.com/search" method="get">
+            <div class="search-bar">
+                <i class="material-icons md-21" id ="search-mark">search</i>
+                <input class="search-box" type="text" name="q">
+                <i class="material-icons md-21" id ="search-localsee">mic</i>
+            </div>
+            <button class="button" type="submit" name="btnG">Google Search</button>
+            <button class="button" type="submit" name="btnI" value="1">I'm feeling lucky</button>
+        </form> 
+    </body>
+</html>

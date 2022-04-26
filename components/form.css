@@ -1,0 +1,11 @@
+.search-form {
+    display: table;
+    line-height: 50px;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.advanced-search-form {
+    font-size: 17px;
+}

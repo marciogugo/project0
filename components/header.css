@@ -1,0 +1,33 @@
+header {
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+nav {
+    text-align: right;
+    align-items: center;
+}
+
+.header-links {
+    text-decoration: none;
+    align-items: center;
+    margin-right: 30px;
+    color: blue;
+    cursor: pointer;
+}
+
+.header-advanced {
+    display: flex;
+    padding-left: 20px;
+    text-align: left;
+    color: #FFF;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.image-logo {
+    font-family: 'Open sans';
+    font-size: 17px;
+    text-align: right;
+    transform: translateX(-38%);
+}
